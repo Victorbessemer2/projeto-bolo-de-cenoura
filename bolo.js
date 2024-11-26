@@ -29,15 +29,15 @@ function receita() {
     return "Bolo assado com sucesso!";
 }
 
-// Simula o processo de misturar a massa
-function misturamassa(ingredientes) {
-    console.log("Iniciando a mistura...");
+// Simula o processo de assar bolo
+function assar_massa(ingredientes) {
+    console.log("Iniciando o cozimento...");
     
     for (let i = 0; i < 2100; i++) {
         // Simulação de tempo
     }
     
-    return "Massa pronta para assar!";
+    return "Massa pronta!";
 }
 
 // Verifica se o bolo está pronto
